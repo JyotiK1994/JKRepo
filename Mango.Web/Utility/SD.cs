@@ -1,4 +1,4 @@
-﻿namespace Mango.Web.Utility
+﻿namespace Ecom.Web.Utility
 {
     public class SD
     {

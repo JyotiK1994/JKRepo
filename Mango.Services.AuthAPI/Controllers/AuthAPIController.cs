@@ -1,10 +1,10 @@
-﻿using Mango.MessageBus;
-using Mango.Services.AuthAPI.Models.Dto;
-using Mango.Services.AuthAPI.Service.IService;
+﻿using Ecom.MessageBus;
+using Ecom.Services.AuthAPI.Models.Dto;
+using Ecom.Services.AuthAPI.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Mango.Services.AuthAPI.Controllers
+namespace Ecom.Services.AuthAPI.Controllers
 {
     [Route("api/auth")]
     [ApiController]

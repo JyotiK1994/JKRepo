@@ -1,10 +1,10 @@
-﻿using Mango.Services.AuthAPI.Data;
-using Mango.Services.AuthAPI.Models;
-using Mango.Services.AuthAPI.Models.Dto;
-using Mango.Services.AuthAPI.Service.IService;
+﻿using Ecom.Services.AuthAPI.Data;
+using Ecom.Services.AuthAPI.Models;
+using Ecom.Services.AuthAPI.Models.Dto;
+using Ecom.Services.AuthAPI.Service.IService;
 using Microsoft.AspNetCore.Identity;
 
-namespace Mango.Services.AuthAPI.Service
+namespace Ecom.Services.AuthAPI.Service
 {
     public class AuthService : IAuthService
     {

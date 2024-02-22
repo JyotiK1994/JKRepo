@@ -1,5 +1,5 @@
 ﻿
-namespace Mango.Services.ShoppingCartAPI.Models.Dto
+namespace Ecom.Services.ShoppingCartAPI.Models.Dto
 {
     public class CartDetailsDto
     {

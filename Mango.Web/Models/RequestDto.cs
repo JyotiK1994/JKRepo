@@ -1,6 +1,6 @@
-﻿using static Mango.Web.Utility.SD;
+﻿using static Ecom.Web.Utility.SD;
 
-namespace Mango.Web.Models
+namespace Ecom.Web.Models
 {
     public class RequestDto
     {

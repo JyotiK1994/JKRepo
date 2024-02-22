@@ -1,10 +1,10 @@
-﻿using Mango.Services.RewardAPI.Data;
-using Mango.Services.RewardAPI.Message;
-using Mango.Services.RewardAPI.Models;
+﻿using Ecom.Services.RewardAPI.Data;
+using Ecom.Services.RewardAPI.Message;
+using Ecom.Services.RewardAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
 
-namespace Mango.Services.RewardAPI.Services
+namespace Ecom.Services.RewardAPI.Services
 {
     public class RewardService : IRewardService
     {

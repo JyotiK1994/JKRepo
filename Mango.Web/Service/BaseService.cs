@@ -1,11 +1,11 @@
-﻿using Mango.Web.Models;
-using Mango.Web.Service.IService;
+﻿using Ecom.Web.Models;
+using Ecom.Web.Service.IService;
 using Newtonsoft.Json;
 using System.Net;
 using System.Text;
-using static Mango.Web.Utility.SD;
+using static Ecom.Web.Utility.SD;
 
-namespace Mango.Web.Service
+namespace Ecom.Web.Service
 {
     public class BaseService : IBaseService
     {
@@ -21,7 +21,7 @@ namespace Mango.Web.Service
         {
             try
             {
-                HttpClient client = _httpClientFactory.CreateClient("MangoAPI");
+                HttpClient client = _httpClientFactory.CreateClient("EcomAPI");
                 HttpRequestMessage message = new();
                 if (requestDto.ContentType == ContentType.MultipartFormData)
                 {

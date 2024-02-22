@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Mango.Services.RewardAPI.Controllers
+namespace Ecom.Services.RewardAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

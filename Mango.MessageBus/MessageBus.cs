@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mango.MessageBus
+namespace Ecom.MessageBus
 {
     public class MessageBus : IMessageBus
     {

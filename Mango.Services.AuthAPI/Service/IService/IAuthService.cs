@@ -1,6 +1,6 @@
-﻿using Mango.Services.AuthAPI.Models.Dto;
+﻿using Ecom.Services.AuthAPI.Models.Dto;
 
-namespace Mango.Services.AuthAPI.Service.IService
+namespace Ecom.Services.AuthAPI.Service.IService
 {
     public interface IAuthService
     {

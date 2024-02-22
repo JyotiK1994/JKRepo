@@ -1,4 +1,4 @@
-﻿namespace Mango.Web.Models
+﻿namespace Ecom.Web.Models
 {
     public class UserDto
     {

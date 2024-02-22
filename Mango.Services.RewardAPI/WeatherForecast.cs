@@ -1,4 +1,4 @@
-namespace Mango.Services.RewardAPI
+namespace Ecom.Services.RewardAPI
 {
     public class WeatherForecast
     {

@@ -1,13 +1,13 @@
 ﻿using IdentityModel;
-using Mango.Web.Models;
-using Mango.Web.Service.IService;
-using Mango.Web.Utility;
+using Ecom.Web.Models;
+using Ecom.Web.Service.IService;
+using Ecom.Web.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Diagnostics;
 
-namespace Mango.Web.Controllers
+namespace Ecom.Web.Controllers
 {
     public class HomeController : Controller
     {

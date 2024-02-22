@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Mango.Services.AuthAPI.Migrations
+namespace Ecom.Services.AuthAPI.Migrations
 {
     /// <inheritdoc />
     public partial class addIDentityTables : Migration

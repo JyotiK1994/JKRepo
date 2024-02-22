@@ -1,8 +1,8 @@
-using Mango.MessageBus;
-using Mango.Services.AuthAPI.Data;
-using Mango.Services.AuthAPI.Models;
-using Mango.Services.AuthAPI.Service;
-using Mango.Services.AuthAPI.Service.IService;
+using Ecom.MessageBus;
+using Ecom.Services.AuthAPI.Data;
+using Ecom.Services.AuthAPI.Models;
+using Ecom.Services.AuthAPI.Service;
+using Ecom.Services.AuthAPI.Service.IService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

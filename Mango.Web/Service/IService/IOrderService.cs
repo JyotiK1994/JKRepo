@@ -1,6 +1,6 @@
-﻿using Mango.Web.Models;
+﻿using Ecom.Web.Models;
 
-namespace Mango.Web.Service.IService
+namespace Ecom.Web.Service.IService
 {
     public interface IOrderService
     {

@@ -1,8 +1,8 @@
-﻿using Mango.Services.OrderAPI.Models.Dto;
+﻿using Ecom.Services.OrderAPI.Models.Dto;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Mango.Services.OrderAPI.Models
+namespace Ecom.Services.OrderAPI.Models
 {
     public class OrderDetails
     {

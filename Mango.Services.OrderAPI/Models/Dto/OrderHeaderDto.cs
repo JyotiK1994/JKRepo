@@ -1,5 +1,5 @@
 ﻿
-namespace Mango.Services.OrderAPI.Models.Dto
+namespace Ecom.Services.OrderAPI.Models.Dto
 {
     public class OrderHeaderDto
     {
