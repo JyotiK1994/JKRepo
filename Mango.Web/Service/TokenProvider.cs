@@ -1,8 +1,8 @@
-﻿using Mango.Web.Service.IService;
-using Mango.Web.Utility;
+﻿using Ecom.Web.Service.IService;
+using Ecom.Web.Utility;
 using Newtonsoft.Json.Linq;
 
-namespace Mango.Web.Service
+namespace Ecom.Web.Service
 {
     public class TokenProvider : ITokenProvider
     {

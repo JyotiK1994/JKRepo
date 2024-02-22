@@ -1,7 +1,7 @@
-﻿using Mango.Services.OrderAPI.Models;
+﻿using Ecom.Services.OrderAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Mango.Services.OrderAPI.Data
+namespace Ecom.Services.OrderAPI.Data
 {
     public class AppDbContext : DbContext
     {

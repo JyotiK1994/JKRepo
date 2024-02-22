@@ -1,7 +1,7 @@
-using Mango.Services.RewardAPI.Data;
-using Mango.Services.RewardAPI.Extension;
-using Mango.Services.RewardAPI.Messaging;
-using Mango.Services.RewardAPI.Services;
+using Ecom.Services.RewardAPI.Data;
+using Ecom.Services.RewardAPI.Extension;
+using Ecom.Services.RewardAPI.Messaging;
+using Ecom.Services.RewardAPI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

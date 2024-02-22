@@ -1,4 +1,4 @@
-﻿namespace Mango.Services.RewardAPI.Message
+﻿namespace Ecom.Services.RewardAPI.Message
 {
     public class RewardsMessage
     {

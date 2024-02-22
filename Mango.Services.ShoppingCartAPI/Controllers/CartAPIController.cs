@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using Mango.MessageBus;
-using Mango.Services.ShoppingCartAPI.Data;
-using Mango.Services.ShoppingCartAPI.Models;
-using Mango.Services.ShoppingCartAPI.Models.Dto;
-using Mango.Services.ShoppingCartAPI.Service.IService;
+using Ecom.MessageBus;
+using Ecom.Services.ShoppingCartAPI.Data;
+using Ecom.Services.ShoppingCartAPI.Models;
+using Ecom.Services.ShoppingCartAPI.Models.Dto;
+using Ecom.Services.ShoppingCartAPI.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.PortableExecutable;
 
-namespace Mango.Services.ShoppingCartAPI.Controllers
+namespace Ecom.Services.ShoppingCartAPI.Controllers
 {
     [Route("api/cart")]
     [ApiController]

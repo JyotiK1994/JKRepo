@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Mango.Services.ProductAPI.Migrations
+namespace Ecom.Services.ProductAPI.Migrations
 {
     /// <inheritdoc />
     public partial class AddImageLocalPathColumn : Migration

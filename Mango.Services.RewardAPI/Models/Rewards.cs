@@ -1,4 +1,4 @@
-﻿namespace Mango.Services.RewardAPI.Models
+﻿namespace Ecom.Services.RewardAPI.Models
 {
     public class Rewards
     {

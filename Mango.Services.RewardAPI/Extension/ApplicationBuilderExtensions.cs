@@ -1,7 +1,7 @@
-﻿using Mango.Services.RewardAPI.Messaging;
+﻿using Ecom.Services.RewardAPI.Messaging;
 using System.Reflection.Metadata;
 
-namespace Mango.Services.RewardAPI.Extension
+namespace Ecom.Services.RewardAPI.Extension
 {
     public static class ApplicationBuilderExtensions
     {

@@ -1,6 +1,6 @@
-using Mango.Web.Service;
-using Mango.Web.Service.IService;
-using Mango.Web.Utility;
+using Ecom.Web.Service;
+using Ecom.Web.Service.IService;
+using Ecom.Web.Utility;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);

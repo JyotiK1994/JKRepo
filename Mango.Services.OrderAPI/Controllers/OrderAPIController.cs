@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
-using Mango.Services.OrderAPI.Data;
-using Mango.Services.OrderAPI.Models;
-using Mango.Services.OrderAPI.Models.Dto;
-using Mango.Services.OrderAPI.Utility;
-using Mango.Services.ShoppingCartAPI.Service.IService;
+using Ecom.Services.OrderAPI.Data;
+using Ecom.Services.OrderAPI.Models;
+using Ecom.Services.OrderAPI.Models.Dto;
+using Ecom.Services.OrderAPI.Utility;
+using Ecom.Services.ShoppingCartAPI.Service.IService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Stripe.Checkout;
 using Stripe;
-using Mango.MessageBus;
+using Ecom.MessageBus;
 using Microsoft.EntityFrameworkCore;
 
-namespace Mango.Services.OrderAPI.Controllers
+namespace Ecom.Services.OrderAPI.Controllers
 {
     [Route("api/order")]
     [ApiController]

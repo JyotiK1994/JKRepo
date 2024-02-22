@@ -1,7 +1,7 @@
-﻿using Mango.Services.RewardAPI.Models;
+﻿using Ecom.Services.RewardAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Mango.Services.RewardAPI.Data
+namespace Ecom.Services.RewardAPI.Data
 {
     public class AppDbContext : DbContext
     {

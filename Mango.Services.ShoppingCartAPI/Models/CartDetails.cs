@@ -1,8 +1,8 @@
-﻿using Mango.Services.ShoppingCartAPI.Models.Dto;
+﻿using Ecom.Services.ShoppingCartAPI.Models.Dto;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Mango.Services.ShoppingCartAPI.Models
+namespace Ecom.Services.ShoppingCartAPI.Models
 {
     public class CartDetails
     {

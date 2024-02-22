@@ -1,8 +1,8 @@
-﻿using Mango.Web.Models;
-using Mango.Web.Service.IService;
-using Mango.Web.Utility;
+﻿using Ecom.Web.Models;
+using Ecom.Web.Service.IService;
+using Ecom.Web.Utility;
 
-namespace Mango.Web.Service
+namespace Ecom.Web.Service
 {
     public class AuthService : IAuthService
     {

@@ -1,6 +1,6 @@
-﻿using Mango.Services.RewardAPI.Message;
+﻿using Ecom.Services.RewardAPI.Message;
 
-namespace Mango.Services.RewardAPI.Services
+namespace Ecom.Services.RewardAPI.Services
 {
     public interface IRewardService
     {
