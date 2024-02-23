@@ -1,7 +1,7 @@
-﻿using Mango.Services.EmailAPI.Messaging;
+﻿using Ecom.Services.EmailAPI.Messaging;
 using System.Reflection.Metadata;
 
-namespace Mango.Services.EmailAPI.Extension
+namespace Ecom.Services.EmailAPI.Extension
 {
     public static class ApplicationBuilderExtensions
     {

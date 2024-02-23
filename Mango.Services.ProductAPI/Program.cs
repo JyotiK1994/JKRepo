@@ -67,7 +67,7 @@ app.UseSwaggerUI(c =>
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseStaticFiles();
+app.UseStaticFiles(); // if we don't add that the application won't look for www.root folder
 app.MapControllers();
 ApplyMigration();
 app.Run();

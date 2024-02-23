@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Mango.Services.CouponAPI.Migrations
+namespace Ecom.Services.CouponAPI.Migrations
 {
     /// <inheritdoc />
     public partial class addCouponToDb : Migration

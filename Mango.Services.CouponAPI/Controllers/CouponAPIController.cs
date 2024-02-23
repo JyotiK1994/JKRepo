@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using Mango.Services.CouponAPI.Data;
-using Mango.Services.CouponAPI.Models;
-using Mango.Services.CouponAPI.Models.Dto;
+using Ecom.Services.CouponAPI.Data;
+using Ecom.Services.CouponAPI.Models;
+using Ecom.Services.CouponAPI.Models.Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace Mango.Services.CouponAPI.Controllers
+namespace Ecom.Services.CouponAPI.Controllers
 {
     [Route("api/coupon")]
     [ApiController]
@@ -90,7 +90,7 @@ namespace Mango.Services.CouponAPI.Controllers
                 {
                     AmountOff = (long)(couponDto.DiscountAmount*100),
                     Name = couponDto.CouponCode,
-                    Currency="usd",
+                    Currency="inr",
                     Id=couponDto.CouponCode,
                 };
                 var service = new Stripe.CouponService();
