@@ -137,7 +137,7 @@ namespace Ecom.Services.OrderAPI.Controllers
                     {
                         PriceData = new SessionLineItemPriceDataOptions
                         {
-                            UnitAmount = (long)(item.Price * 100), // $20.99 -> 2099
+                            UnitAmount = (long)(item.Price), // $20.99 -> 2099
                             Currency = "usd",
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
@@ -199,7 +199,7 @@ namespace Ecom.Services.OrderAPI.Controllers
                         RewardsActivity = Convert.ToInt32(orderHeader.OrderTotal),
                         UserId = orderHeader.UserId
                     };
-                    string topicName = _configuration.GetValue<string>("TopicAndQueueNames:OrderCreatedTopic");
+                    string topicName = _configuration.GetValue<string>("TopicAndQueueNames:OrderCreatedTopic"); // Publish the RewardDTO, now one will be consumed/subscribed and saved by rewards API and another will be Sent in mail.
                     await _messageBus.PublishMessage(rewardsDto,topicName);
                     _response.Result = _mapper.Map<OrderHeaderDto>(orderHeader);
                 }

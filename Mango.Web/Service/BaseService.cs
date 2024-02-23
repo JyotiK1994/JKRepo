@@ -40,7 +40,7 @@ namespace Ecom.Web.Service
 
                 message.RequestUri = new Uri(requestDto.Url);
 
-                if (requestDto.ContentType == ContentType.MultipartFormData)
+                if (requestDto.ContentType == ContentType.MultipartFormData) //For ProductImageUrl thing
                 {
                     var content = new MultipartFormDataContent();
 

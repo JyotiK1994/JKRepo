@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Services.CouponAPI", "Mango.Services.CouponAPI\Ecommerce.Services.CouponAPI.csproj", "{D283E2FF-B718-4229-AD4A-489D925C4C22}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{B7012943-4F4D-4DEA-B93D-63F446118BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Web", "Mango.Web\Ecommerce.Web.csproj", "{B7012943-4F4D-4DEA-B93D-63F446118BC1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Services.AuthAPI", "Mango.Services.AuthAPI\Ecommerce.Services.AuthAPI.csproj", "{98180658-F43A-479A-8F03-AA6F1829D38A}"
 EndProject

@@ -1,11 +1,11 @@
-﻿using Mango.Services.EmailAPI.Data;
-using Mango.Services.EmailAPI.Message;
-using Mango.Services.EmailAPI.Models;
-using Mango.Services.EmailAPI.Models.Dto;
+﻿using Ecom.Services.EmailAPI.Data;
+using Ecom.Services.EmailAPI.Message;
+using Ecom.Services.EmailAPI.Models;
+using Ecom.Services.EmailAPI.Models.Dto;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
 
-namespace Mango.Services.EmailAPI.Services
+namespace Ecom.Services.EmailAPI.Services
 {
     public class EmailService : IEmailService
     {
@@ -38,13 +38,13 @@ namespace Mango.Services.EmailAPI.Services
         public async Task LogOrderPlaced(RewardsMessage rewardsDto)
         {
             string message = "New Order Placed. <br/> Order ID : " + rewardsDto.OrderId;
-            await LogAndEmail(message, "dotnetmastery@gmail.com");
+            await LogAndEmail(message, "jyotikundu94@gmail.com");
         }
 
         public async Task RegisterUserEmailAndLog(string email)
         {
             string message = "User Registeration Successful. <br/> Email : " + email;
-            await LogAndEmail(message, "dotnetmastery@gmail.com");
+            await LogAndEmail(message, "jyotikundu94@gmail.com");
         }
 
         private async Task<bool> LogAndEmail(string message, string email)

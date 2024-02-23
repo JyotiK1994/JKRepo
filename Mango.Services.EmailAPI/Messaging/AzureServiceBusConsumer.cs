@@ -1,11 +1,11 @@
 ﻿using Azure.Messaging.ServiceBus;
-using Mango.Services.EmailAPI.Message;
-using Mango.Services.EmailAPI.Models.Dto;
-using Mango.Services.EmailAPI.Services;
+using Ecom.Services.EmailAPI.Message;
+using Ecom.Services.EmailAPI.Models.Dto;
+using Ecom.Services.EmailAPI.Services;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace Mango.Services.EmailAPI.Messaging
+namespace Ecom.Services.EmailAPI.Messaging
 {
     public class AzureServiceBusConsumer : IAzureServiceBusConsumer
     {
