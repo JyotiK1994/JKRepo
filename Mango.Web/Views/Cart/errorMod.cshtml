@@ -1,0 +1,8 @@
+﻿@model CartDto
+@if (Model.CartHeader != null)
+{
+    <div class="col-8 col-md-5">
+
+        <div style="font-size:11px;">@Html.Raw(Model.CartHeader.Name)</div>
+    </div>
+}

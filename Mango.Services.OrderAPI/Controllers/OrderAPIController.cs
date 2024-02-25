@@ -137,7 +137,7 @@ namespace Ecom.Services.OrderAPI.Controllers
                     {
                         PriceData = new SessionLineItemPriceDataOptions
                         {
-                            UnitAmount = (long)(item.Price), // $20.99 -> 2099
+                            UnitAmount = (long)(item.Price)*100, // $20.99 -> 2099
                             Currency = "usd",
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
@@ -165,7 +165,7 @@ namespace Ecom.Services.OrderAPI.Controllers
             }
             catch(Exception ex)
             {
-                _response.Message= ex.Message;
+                _response.Message= ex.Message + ex.InnerException +ex.StackTrace;
                 _response.IsSuccess = false;
             }
             return _response;

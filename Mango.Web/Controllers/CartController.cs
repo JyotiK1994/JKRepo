@@ -3,6 +3,7 @@ using Ecom.Web.Service;
 using Ecom.Web.Service.IService;
 using Ecom.Web.Utility;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.IdentityModel.Tokens.Jwt;
@@ -57,13 +58,15 @@ namespace Ecom.Web.Controllers
                 };
 
                 var stripeResponse = await _orderService.CreateStripeSession(stripeRequestDto);
-                StripeRequestDto stripeResponseResult = JsonConvert.DeserializeObject<StripeRequestDto>
+                if (stripeResponse.IsSuccess)
+                {
+                    StripeRequestDto stripeResponseResult = JsonConvert.DeserializeObject<StripeRequestDto>
                                             (Convert.ToString(stripeResponse.Result));
-                Response.Headers.Add("Location", stripeResponseResult.StripeSessionUrl);
-                return new StatusCodeResult(303);
+                    Response.Headers.Add("Location", stripeResponseResult.StripeSessionUrl);
+                    return new StatusCodeResult(303);
 
-
-
+                }
+                
             }
             return View();
         }

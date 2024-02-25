@@ -90,7 +90,7 @@ namespace Ecom.Services.CouponAPI.Controllers
                 {
                     AmountOff = (long)(couponDto.DiscountAmount*100),
                     Name = couponDto.CouponCode,
-                    Currency="inr",
+                    Currency="usd",
                     Id=couponDto.CouponCode,
                 };
                 var service = new Stripe.CouponService();
