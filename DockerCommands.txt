@@ -1,0 +1,107 @@
+Microsoft Windows [Version 10.0.22631.3155]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Projects\Mango_Microservices-master>docker push jyotikundu859/ecommerceblink94:ecommerceweb
+The push refers to repository [docker.io/jyotikundu859/ecommerceblink94]
+An image does not exist locally with the tag: jyotikundu859/ecommerceblink94
+
+D:\Projects\Mango_Microservices-master>docker push ecommerceweb
+Using default tag: latest
+The push refers to repository [docker.io/library/ecommerceweb]
+tag does not exist: ecommerceweb:latest
+
+D:\Projects\Mango_Microservices-master>docker container ls
+CONTAINER ID   IMAGE              COMMAND               CREATED         STATUS         PORTS                                              NAMES
+884c2cef60f4   ecommerceweb:dev   "tail -f /dev/null"   6 minutes ago   Up 6 minutes   0.0.0.0:32769->8080/tcp, 0.0.0.0:32768->8081/tcp   Ecommerce.Web
+
+D:\Projects\Mango_Microservices-master>docker login
+Authenticating with existing credentials...
+Login Succeeded
+
+D:\Projects\Mango_Microservices-master>docker images
+REPOSITORY                        TAG       IMAGE ID       CREATED         SIZE
+ecommerceweb                      dev       5dfe5df01315   8 minutes ago   217MB
+welcome-to-docker                 latest    14b93c4b9882   12 days ago     226MB
+createdockerdemo                  dev       c353e95e1774   12 days ago     209MB
+mcr.microsoft.com/dotnet/aspnet   8.0       6eedb7553b12   2 weeks ago     217MB
+
+D:\Projects\Mango_Microservices-master>docker push jyotikundu859/ecommerceblink94:dev
+The push refers to repository [docker.io/jyotikundu859/ecommerceblink94]
+An image does not exist locally with the tag: jyotikundu859/ecommerceblink94
+
+D:\Projects\Mango_Microservices-master>docker push ecommerceweb:dev
+The push refers to repository [docker.io/library/ecommerceweb]
+846036ca2d4f: Preparing
+eb710e731d28: Preparing
+1f0a4d187f2d: Preparing
+eeb0a5bc864d: Preparing
+f14e3173eb6a: Preparing
+254943a44e04: Waiting
+ceb365432eec: Waiting
+denied: requested access to the resource is denied
+
+D:\Projects\Mango_Microservices-master>docker login --username=jyotikundu859
+Password: error while reading input: EOF
+
+D:\Projects\Mango_Microservices-master>docker login --username=jyotikundu859
+Password:
+
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or password
+
+D:\Projects\Mango_Microservices-master>docker login --email=jyotikundu859@gmail.com
+unknown flag: --email
+
+D:\Projects\Mango_Microservices-master>docker login --username=jyotikundu859
+Password:
+
+Login Succeeded
+
+D:\Projects\Mango_Microservices-master>docker push ecommerceweb:dev
+The push refers to repository [docker.io/library/ecommerceweb]
+846036ca2d4f: Preparing
+eb710e731d28: Preparing
+1f0a4d187f2d: Preparing
+eeb0a5bc864d: Preparing
+f14e3173eb6a: Preparing
+254943a44e04: Waiting
+ceb365432eec: Waiting
+denied: requested access to the resource is denied
+
+D:\Projects\Mango_Microservices-master>docker tag docker/ecommerceweb jyotikundu859/ecommerceweb
+Error response from daemon: No such image: docker/ecommerceweb:latest
+
+D:\Projects\Mango_Microservices-master>docker tag docker/ecommerceweb:dev jyotikundu859/ecommerceweb:dev
+Error response from daemon: No such image: docker/ecommerceweb:dev
+
+D:\Projects\Mango_Microservices-master>docker tag ecommerceweb:dev jyotikundu859/ecommerceweb:dev
+
+D:\Projects\Mango_Microservices-master>docker push ecommerceweb:dev
+The push refers to repository [docker.io/library/ecommerceweb]
+846036ca2d4f: Preparing
+eb710e731d28: Preparing
+1f0a4d187f2d: Preparing
+eeb0a5bc864d: Preparing
+f14e3173eb6a: Preparing
+254943a44e04: Waiting
+ceb365432eec: Waiting
+denied: requested access to the resource is denied
+
+D:\Projects\Mango_Microservices-master>docker login --username=jyotikundu859
+Password:
+
+Login Succeeded
+
+D:\Projects\Mango_Microservices-master>docker tag ecommerceweb:dev jyotikundu859/ecommerceweb:dev
+
+D:\Projects\Mango_Microservices-master>docker push ecommerceweb:dev
+The push refers to repository [docker.io/library/ecommerceweb]
+846036ca2d4f: Preparing
+eb710e731d28: Preparing
+1f0a4d187f2d: Preparing
+eeb0a5bc864d: Preparing
+f14e3173eb6a: Preparing
+254943a44e04: Waiting
+ceb365432eec: Waiting
+denied: requested access to the resource is denied
+
+D:\Projects\Mango_Microservices-master>
